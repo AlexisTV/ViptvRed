@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.programan.viptv" name="VIPTV[COLOR crimson]ASTRO[/COLOR]" version="5.5" provider-name="VIPTV">
+<addon id="plugin.programan.viptv" name="VIPTV[COLOR crimson]ASTRO[/COLOR]" version="5.5.6" provider-name="VIPTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -15,6 +15,12 @@
     <platform>all</platform>
   </extension>
 </addon>
+
+ <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/AlexisTV/Viptv-repositorio/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/AlexisTV/Viptv-repositorio/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/AlexisTV/master/Repositorio/</datadir>
+    </extension>
 
 <addon id="plugin.video.Agora"
        name="[COLOR white]Agora[/COLOR]"
