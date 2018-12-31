@@ -1,37 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.programan.viptv" name="VIPTV[COLOR crimson]ASTRO[/COLOR]" version="5.5.0" provider-name="VIPTV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">VIPTV [COLOR crimson]WIZARD[/COLOR]</summary>
-    <description lang="en">Build para Kodi 17 y 18
-</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.programan.viptv" name="VIPTV[COLOR crimson]ASTRO[/COLOR]" version="5.5" provider-name="VIPTV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">VIPTV [COLOR crimson]WIZARD[/COLOR]</summary>
-    <description lang="en">Build para Kodi 17 y 18
-</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.Agora"
        name="[COLOR white]Agora[/COLOR]"
        version="0.0.1"
@@ -377,26 +345,4 @@
         <platform>all</platform>
     </extension>
 </addon>
-
-<addon id="VIPTV ASTRO" name="VIPTV [COLOR crimson]ASTRO[/COLOR]" version="7.0.1" provider-name="VIPTV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">VIPTV [COLOR crimson]WIZARD[/COLOR]</summary>
-    <description lang="en">Build para Kodi 17 y 18
-</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<extension point="xbmc.addon.repository" name="ViptvAstro">
-        <info>https://raw.githubusercontent.com/AlexisTV/ViptvRed/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/AlexisTV/ViptvRed/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/AlexisTV/master/Repositorio/</datadir>
-    </extension>
 </addons>
