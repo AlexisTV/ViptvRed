@@ -16,12 +16,6 @@
   </extension>
 </addon>
 
-<extension point="xbmc.addon.repository" name="ViptvAstro">
-        <info>https://raw.githubusercontent.com/AlexisTV/ViptvRed/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/AlexisTV/ViptvRed/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/AlexisTV/master/Repositorio/</datadir>
-    </extension>
-
 <addon id="plugin.programan.viptv" name="VIPTV[COLOR crimson]ASTRO[/COLOR]" version="5.5" provider-name="VIPTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
